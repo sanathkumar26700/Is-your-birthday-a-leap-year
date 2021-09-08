@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding: 1rem;
+  height: 25rem;
+  width: 35rem;
+  background-color: orangered;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 15px 15px 25px rgb(44, 0, 53);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+input {
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+}
+
+.btn {
+  margin: 1rem auto 1.2rem;
+  padding: 0.5rem;
+  background-color: black;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.863);
+  font-size: 1.1rem;
+  font-family: "Roboto Slab", serif;
+  transition: 250ms;
+}
+.btn:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: orangered;
+  box-shadow: 10px 10px 15px rgb(44, 0, 53);
+}
+
+.output {
+  margin-top: 0.8rem;
+  padding: 2rem;
+  font-size: 1.6rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.863);
+}
